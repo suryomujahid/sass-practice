@@ -1,0 +1,177 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Mono:400,700&display=swap);
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: Roboto Mono, monospace;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+nav {
+  width: auto;
+  height: 42px;
+  background: #202020;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+nav .navbar-brand {
+  color: white;
+}
+
+nav .navbar-brand a {
+  font-weight: normal;
+}
+
+nav a {
+  font-size: 13px;
+  font-weight: bold;
+  color: white;
+  padding: 14px 22px;
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav a img {
+  margin-right: 12px;
+  width: 30px;
+}
+
+nav .navbar-person {
+  margin-left: 12px;
+  border-radius: 100%;
+}
+
+nav .dropdown {
+  width: 16px;
+}
+
+body {
+  color: #202020;
+}
+
+.container {
+  margin: auto;
+  width: 50%;
+  padding: 28px 14px 28px 14px;
+}
+
+a {
+  text-decoration: none;
+  color: #202020;
+}
+
+.btn-back {
+  margin-bottom: 12px;
+  font-size: 15px;
+  color: #202020;
+  padding: 4px 6px;
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.btn-back svg {
+  margin-right: 12px;
+}
+
+.btn-back:hover {
+  color: lightseagreen;
+  fill: lightseagreen;
+}
+
+.mapel-container {
+  background: rgba(45, 42, 236, 0.055);
+  padding: 18px 14px 18px 14px;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 6px 0px 6px 0px;
+}
+
+.mapel-container .row img {
+  margin: 0px 12px 0px 12px;
+}
+
+.disabled {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.disabled svg {
+  margin: 0px 12px 0px 12px;
+}
+
+.paragraph {
+  padding: 6px;
+  font-size: 13px;
+}
+
+.paragraph span {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.txt-back {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.txt-back:hover {
+  color: lightseagreen;
+}
+
+@media only screen and (max-width: 400px) {
+  #fullname {
+    visibility: hidden;
+  }
+  .container {
+    width: auto;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .container {
+    width: auto;
+  }
+}
+/*# sourceMappingURL=main.css.map */

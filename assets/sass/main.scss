@@ -1,0 +1,87 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Roboto Mono, monospace;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Roboto+Mono:400,700&display=swap);
+
+@import 'helpers/var';
+@import 'layout/direction';
+@import 'components/nav';
+
+body{
+    color: $colorDark;
+}
+
+.container{
+    margin: auto;
+
+    width: 50%;
+    padding: 28px 14px 28px 14px;
+}
+
+a{
+    text-decoration: none;
+    color: $colorDark;
+}
+
+.btn-back{
+    margin-bottom: 12px;
+    font-size: 15px;
+    color: $colorDark;
+    padding: 4px 6px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    svg {
+        margin-right: 12px;
+    }
+
+    &:hover{
+        color:  lightseagreen;
+        fill:  lightseagreen;
+    }
+}
+
+.mapel-container{
+    background: $colorDisabled;
+    padding: 18px 14px 18px 14px;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 6px 0px 6px 0px;
+
+    .row{
+        img{
+            margin: 0px 12px 0px 12px;
+        }
+    }
+    
+}
+.disabled{
+    justify-content: flex-start;
+    color:rgba(0, 0, 0, 0.4);
+
+    svg{
+        margin: 0px 12px 0px 12px;
+    }
+}
+
+.paragraph{
+    padding: 6px;
+    font-size: 13px;
+
+    span{
+        color: rgba(0, 0, 0, 0.6);
+    }
+}
+
+.txt-back{ 
+    color:rgba(0, 0, 0, 0.5);
+    &:hover{
+        color: lightseagreen;
+    }
+}
+
+@import 'helpers/responsive';
